@@ -11,7 +11,7 @@ endif
 let g:colors_name = "darcula"
 
 hi Cursor ctermfg=188 ctermbg=250 cterm=NONE guifg=#2b2b2b guibg=#a9b7c6 gui=NONE
-hi Visual ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
+hi Visual ctermfg=NONE ctermbg=23 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#323232 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#313335 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#313335 gui=NONE
@@ -23,9 +23,9 @@ hi StatusLineNC ctermfg=188 ctermbg=236 cterm=NONE guifg=#a9b7c6 guibg=#323232 g
 hi Search term=reverse ctermfg=188 ctermbg=24 guifg=#a9b7c6 guibg=#214283 gui=none
 hi IncSearch term=reverse ctermfg=188 ctermbg=24 guifg=#323232 guibg=#b1c73d gui=none
 hi Directory ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=italic
-hi Folded ctermfg=244 ctermbg=235 cterm=NONE guifg=#8e9292 guibg=#2b2b2b gui=NONE
+hi Folded ctermfg=244 ctermbg=NONE cterm=NONE guifg=#8e9292 guibg=#2b2b2b gui=NONE
 
-hi Normal ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi Normal ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 hi Boolean ctermfg=103 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi Character ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=italic
 hi Comment ctermfg=244 ctermbg=NONE cterm=NONE guifg=#8e9292 guibg=NONE gui=none
@@ -43,7 +43,7 @@ hi Function ctermfg=221 ctermbg=NONE cterm=bold guifg=#c57825 guibg=NONE gui=bol
 hi Identifier ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
 hi Keyword ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi Label ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=NONE
-hi NonText ctermfg=188 ctermbg=235 cterm=NONE guifg=#888888 guibg=#2b2b2b gui=NONE
+hi NonText ctermfg=188 ctermbg=NONE cterm=NONE guifg=#888888 guibg=#2b2b2b gui=NONE
 hi Number ctermfg=67 ctermbg=NONE cterm=NONE guifg=#7ca8c6 guibg=NONE gui=NONE
 hi Operator ctermfg=250 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=NONE gui=NONE
 hi PreProc ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
@@ -67,7 +67,7 @@ hi htmlSpecialChar ctermfg=103 ctermbg=NONE cterm=NONE guifg=#67609c guibg=NONE 
 hi yamlKey ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlAnchor ctermfg=67 ctermbg=NONE cterm=NONE guifg=#7ca8c6 guibg=NONE gui=NONE
 hi yamlAlias ctermfg=67 ctermbg=NONE cterm=NONE guifg=#7ca8c6 guibg=NONE gui=NONE
-hi yamlDocumentHeader ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#292929 gui=NONE
+hi yamlDocumentHeader ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#292929 gui=NONE
 hi cssURL ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi cssFunctionName ctermfg=59 ctermbg=NONE cterm=bold guifg=#3c4c72 guibg=NONE gui=bold
 hi cssColor ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=italic
@@ -122,7 +122,7 @@ hi jsDocType ctermfg=65 ctermbg=NONE cterm=bold guifg=#5e8759 guibg=NONE gui=bol
 hi jsFunctionKey ctermfg=222 ctermbg=NONE cterm=bold guifg=#c57825 guibg=NONE gui=bold
 hi jsCommonJs ctermfg=222 ctermbg=NONE cterm=bold guifg=#c57825 guibg=NONE gui=bold
 "hi jsParen ctermfg=222 ctermbg=NONE cterm=bold guifg=#c57825 guibg=NONE gui=bold
-hi jsParen ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi jsParen ctermfg=188 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 "hi jsFuncBlock ctermfg=103 ctermbg=NONE cterm=NONE guifg=#67609c guibg=NONE gui=italic
 hi javaScriptFunction ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi javaScriptRailsFunction ctermfg=59 ctermbg=NONE cterm=bold guifg=#3c4c72 guibg=NONE gui=bold
@@ -146,12 +146,12 @@ hi jadeClass ctermfg=68 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=NON
 hi jadePipedText ctermfg=65 ctermbg=NONE cterm=NONE guifg=#5e8759 guibg=NONE gui=NONE
 
 " Extra JSON highlighting.
-hi jsonBraces ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi jsonBraces ctermfg=188 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 
 " Extra CoffeeScript highlighting.
-hi coffeeObject ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi coffeeObject ctermfg=188 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 hi coffeeObjAssign ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
-hi coffeeSpecialVar ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi coffeeSpecialVar ctermfg=188 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 
 " Extra Java highlighting.
 hi javaAnnotation ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
@@ -162,10 +162,10 @@ hi javaTypeDef ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=
 hi vimOption ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
 hi vimUserFunc ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
 hi vimCommand ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
-hi vimParenSep ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
-hi vimVar ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi vimParenSep ctermfg=188 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi vimVar ctermfg=188 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 hi vimFuncName ctermfg=68 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=NONE
-hi vimIsCommand ctermfg=188 ctermbg=235 cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
+hi vimIsCommand ctermfg=188 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 
 " Extra CtrlP highlighting.
 hi CtrlPMatch term=reverse ctermfg=188 ctermbg=24 guifg=#a9b7c6 guibg=#214283 gui=none
