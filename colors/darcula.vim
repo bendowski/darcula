@@ -39,8 +39,8 @@ hi DiffText ctermfg=188 ctermbg=24 cterm=NONE guifg=#a9b7c6 guibg=#204a87 gui=NO
 hi ErrorMsg ctermfg=15 ctermbg=88 cterm=NONE guifg=#ffffff guibg=#990000 gui=NONE
 hi WarningMsg ctermfg=15 ctermbg=88 cterm=NONE guifg=#ffffff guibg=#990000 gui=NONE
 hi Float ctermfg=67 ctermbg=NONE cterm=NONE guifg=#7ca8c6 guibg=NONE gui=NONE
-hi Function ctermfg=221 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
-hi Identifier ctermfg=222 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
+hi Function ctermfg=221 ctermbg=NONE cterm=NONE guifg=#ffc66d guibg=NONE gui=NONE
+hi Identifier ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffc66d guibg=NONE gui=NONE
 hi Keyword ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
 hi Label ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=NONE
 hi NonText ctermfg=188 ctermbg=NONE cterm=NONE guifg=#888888 guibg=#2b2b2b gui=NONE
@@ -159,8 +159,8 @@ hi javaTypeDef ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=
 "hi javaOperator ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
 
 " Extra VIM highlighting.
-hi vimOption ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
-hi vimUserFunc ctermfg=222 ctermbg=NONE cterm=NONE guifg=#d9c767 guibg=NONE gui=NONE
+hi vimOption ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffc66d guibg=NONE gui=NONE
+hi vimUserFunc ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffc66d guibg=NONE gui=NONE
 hi vimCommand ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
 hi vimParenSep ctermfg=188 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
 hi vimVar ctermfg=188 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=#2b2b2b gui=NONE
@@ -172,6 +172,10 @@ hi CtrlPMatch term=reverse ctermfg=188 ctermbg=24 guifg=#a9b7c6 guibg=#214283 gu
 
 " Python specific highlighting.
 hi pythonOperator ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=NONE
+
+" ZSH
+hi zshVariableDef ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffc66d guibg=NONE gui=NONE
+hi zshDeref ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffc66d guibg=NONE gui=NONE
 
 " Popup Highlighing.
 hi Pmenu ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#323232 gui=NONE
